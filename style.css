@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+:root{
+    --primary-color: #0d42ff;
+    --secondary-color: #001f8d;
+    --back-color: #0e1d34;
+    --text-color:#3c5275;
+    --p-color:#000;
+--secondary-font-family:'Roboto',
+    sans-serif;
+    --white-color: #fff;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+ul , li{
+    padding: 0;
+    margin: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+.header{
+    position: relative;
+}
+
+.header::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+section{
+    padding: 0 5rem;
+}
+
+/* Navbar sections start */
+.navbar-brand{
+    font-size: 2rem;
+    font-family: var(--secondary-font-family);
+    color: #fff !important;
+}
+.navbar-nav .nav-item{
+    padding: 0 0.5652rem;
+}
+.navbar-nav .nav-link{
+    padding: 0 0.541rem;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+nav{
+    transition:  all .3s ease;
+    z-index: 1000;
+
+}
+nav.sticky{
+    padding: 5px 100px;
+    background-color: #fff;
+}
+nav.sticky .navbar-brand{
+    color: var(--primary-color) !important;
+    font-family: "Poppins";
+font-weight: bold;
+}
+nav.sticky .navbar-nav .nav-link{
+    color: var(--primary-color ) !important;
+    font-weight: bold;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+#hero{
+        width: 100%;
+            min-height: 50vh;
+            background-color: var(--back-color);
+            background-image: url(/img/hero-bg.png);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            padding: 120px 0 60px 0;
+            color: rgba(255, 255, 255, 0.8);
+}
+ .title{
+    font-size: 3rem;
+   color: var(--white-color);
+   font-weight: bold;
+}
+.subtitle{
+    padding: 1rem 0;
+    color: var(--white-color);
+    line-height: 1.7;
+}
+.my-form{
+    padding: 1.8rem 2rem;
+    background-color: var(--white-color);
+    border-radius: 5px;
+}
+.btn:focus,a:focus{
+    outline: none !important;
+}
+.this_my{
+    /* border: none; */
+
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
+.custom-heading{
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: bold;
+}
+.line{
+    width: 20px;
+    height: 5px;
+    background-color: var(--primary-color);
+}
+
+/* Featured Setting */
+.icon-bx i{
+    font-size: 
+    3rem;
+    color: var(--back-color);
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+.icon-bx i:hover{
+    transform: scale(1.2);
+    color: var(--primary-color);
+}
+.card_title{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.down-link{
+    color: var(--primary-color);
+    transition: all .4s ease;
+}
+.down-link:hover .down-link i{
+    margin-left: 1.2rem;
+}
+/* Section About */
+.my_title{
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.sub-title{
+    color: var(--back-color);
+}
+.content .my_heading{
+    color: var(--back-color);
+    font-weight: bold
+    ;
+    font-size: 1.2rem;
+}
+.icon-bx-2 i{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+#about{
+    padding: 50px;
+}
+
+/* section Heading */
+.section-heading{
+    font-size: 3rem;
+    color: var(--back-color);
+    z-index: 20;
+    position: relative;
+    font-weight: bold;
+
+}
+.card{
+    overflow: hidden;
+}
+
+.card img{
+    transition: all .2s ease;
+    /* object-fit: cover; */
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.2);
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+/* Cta Section */
+#cta{
+    padding: 100px;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(/img/cta-bg.jpg) center center;
+}
+.title-my{
+    color: var(--back-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.paragraph{
+    font-style: italic;
+}
+.my-ul li i{
+    margin-left: 1.2rem;
+    color: var(--primary-color);
+}
+.my-rows{
+    margin-bottom: 5rem !important;
+}

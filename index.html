@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesom Cdn LInk -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Mycss -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Let's Get with Navbar -->
+    <div class="innner-navbar">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container p-3">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-primary" type="submit">Get a Qoute</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section Start -->
+    <section id="hero">
+      <div class="container p-3">
+        <div class="row justify-content-space-between">
+          <div class="col-lg-6">
+            <h2 class="title">Your Lightning Fast Delivery Partner</h2>
+            <p class="subtitle">
+              Facere distinctio molestiae nisi fugit tenetur repellat non
+              praesentium nesciunt optio quis sit odio nemo quisquam. eius quos
+              reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam
+              occaecati odio est possimus vel reprehenderit
+            </p>
+            <form action="#" class="my-4 my-form p-3">
+              <div class="row justify-content-center">
+                <div class="col-9">
+                  <input
+                    placeholder="Zip Code or City"
+                    name="this_input"
+                    type="text"
+                    class="this_my"
+                  />
+                </div>
+                <div class="col-3">
+                  <button class="btn btn-primary btn-lg">Search</button>
+                </div>
+              </div>
+            </form>
+            <div class="my-4">
+              <div class="counters">
+                <div class="row justify-content-center">
+                  <div class="col-3">
+                    <div class="custom-heading">232</div>
+                    <div class="line my-2"></div>
+                    <p class="cliens">clients</p>
+                  </div>
+                  <div class="col-3">
+                    <div class="custom-heading">232</div>
+                    <div class="line my-2"></div>
+
+                    <p class="cliens">clients</p>
+                  </div>
+                  <div class="col-3">
+                    <div class="custom-heading">232</div>
+                    <div class="line my-2"></div>
+
+                    <p class="cliens">clients</p>
+                  </div>
+                  <div class="col-3">
+                    <div class="custom-heading">232</div>
+                    <div class="line my-2"></div>
+
+                    <p class="cliens">clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/hero-img (1).svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Afterv Hero Section -->
+    <section id="feature">
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col">
+            <div class="row">
+              <div class="col-3 p-3">
+                <div class="icon-bx">
+                  <i class="fa-solid fa-cart-flatbed"></i>
+                </div>
+              </div>
+              <div class="col-9 p-3">
+                <h4 class="card_title">Lorem, ipsum dolor.</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                  similique aperiam nisi possimus repellat exercitationem
+                </p>
+                <a href="#" class="down-link"
+                  >Read More<i class="fa-solid fa-chevron-right ms-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col">
+            <div class="row">
+              <div class="col-3 p-3">
+                <div class="icon-bx">
+                  <i class="fa-solid fa-truck"></i>
+                </div>
+              </div>
+              <div class="col-9 p-3">
+                <h4 class="card_title">Lorem, ipsum dolor.</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                  similique aperiam nisi possimus repellat exercitationem
+                </p>
+                <a href="#" class="down-link"
+                  >Read More<i class="fa-solid fa-chevron-right ms-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col">
+            <div class="row">
+              <div class="col-3 p-3">
+                <div class="icon-bx">
+                  <i class="fa-solid fa-truck-ramp-box"></i>
+                </div>
+              </div>
+              <div class="col-9 p-3">
+                <h4 class="card_title">Lorem, ipsum dolor.</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                  similique aperiam nisi possimus repellat exercitationem
+                </p>
+                <a href="#" class="down-link"
+                  >Read More<i class="fa-solid fa-chevron-right ms-2"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About Start -->
+    <section id="about">
+      <div class="container my-4 p-3">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4 class="my_title">About Us</h4>
+            <p class="sub-title">
+              Dolor iure expedita id fuga asperiores qui sunt consequatur
+              minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui
+              magnam itaque veritatis dolores. Corrupti totam ut eius incidunt
+              reiciendis veritatis asperiores placeat.
+            </p>
+            <div class="my-4">
+              <div class="content">
+                <div class="row mb-3">
+                  <div class="col-2">
+                    <div class="icon-bx-2">
+                      <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <h4 class="my_heading">
+                      Ullamco laboris nisi ut aliquip consequat
+                    </h4>
+                    <p class="my-2">
+                      Magni facilis facilis repellendus cum excepturi quaerat
+                      praesentium libre trade
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-2">
+                    <div class="icon-bx-2">
+                      <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <h4 class="my_heading">
+                      Ullamco laboris nisi ut aliquip consequat
+                    </h4>
+                    <p class="my-2">
+                      Magni facilis facilis repellendus cum excepturi quaerat
+                      praesentium libre trade
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-2">
+                    <div class="icon-bx-2">
+                      <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <h4 class="my_heading">
+                      Ullamco laboris nisi ut aliquip consequat
+                    </h4>
+                    <p class="my-2">
+                      Magni facilis facilis repellendus cum excepturi quaerat
+                      praesentium libre trade
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/about.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+      <div class="text-center">
+        <h1 class="section-heading">Services</h1>
+      </div>
+      <div class="container p-3">
+        <div class="content">
+          <div class="row">
+            <div class="col-lg-4 col-mg-6 col-sm-12 mb-3">
+              <div class="card" style="width: 18rem; cursor: pointer">
+                <img
+                  src="img/storage-service.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-6 col-sm-12 mb-3">
+              <div class="card" style="width: 18rem; cursor: pointer">
+                <img
+                  src="img/storage-service.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-6 col-sm-12 mb-3">
+              <div class="card" style="width: 18rem; cursor: pointer">
+                <img
+                  src="img/storage-service.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-6 col-sm-12 mb-3">
+              <div class="card" style="width: 18rem; cursor: pointer">
+                <img
+                  src="img/storage-service.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-6 col-sm-12 mb-3">
+              <div class="card" style="width: 18rem; cursor: pointer">
+                <img
+                  src="img/storage-service.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-6 col-sm-12 mb-3">
+              <div class="card" style="width: 18rem; cursor: pointer">
+                <img
+                  src="img/storage-service.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sectio CTA -->
+    <section id="cta">
+      <div class="content">
+        <div class="row justify-content-center">
+          <div class="col-9">
+            <div class="text-center">
+              <h2 class="text-white mb-3">Call To Action</h2>
+              <p class="text-white mb-3">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+              <button
+                class="btn btn-outline-primary btn-lg"
+                style="border: 1px solid #fff !important; color: white"
+              >
+                Call To Action
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dummy Data -->
+    <div class="my-4">
+      <div class="container p-4">
+        <div class="row my-rows mb-3">
+          <div class="col-lg-6">
+            <img src="img/features-1.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="title-my">
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assumenda.
+            </h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="my-2 my-ul">
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row my-rows mb-3">
+          <div class="col-lg-6">
+            <h2 class="title-my">
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assumenda.
+            </h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="my-2 my-ul">
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/features-1.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="row my-rows mb-3">
+          <div class="col-lg-6">
+            <img src="img/features-1.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="title-my">
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assumenda.
+            </h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="my-2 my-ul">
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row my-rows mb-3">
+          <div class="col-lg-6">
+            <h2 class="title-my">
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assumenda.
+            </h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="my-2 my-ul">
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+              <li class="mb-2">
+                <i class="fa-solid fa-check"></i> Ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/features-1.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
